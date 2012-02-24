@@ -1,0 +1,10 @@
+D:\DMAssist\DMAssistCore\DMAssistCore\bin\Debug\DMAssistCore.dll
+D:\DMAssist\DMAssistCore\DMAssistCore\bin\Debug\DMAssistCore.pdb
+D:\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\ResolveAssemblyReference.cache
+D:\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\DMAssistCore.dll
+D:\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\DMAssistCore.pdb
+C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\bin\Debug\DMAssistCore.dll
+C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\bin\Debug\DMAssistCore.pdb
+C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\DMAssistCore.dll
+C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Debug\DMAssistCore.pdb
