@@ -40,18 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\ICharacter.cs" />
     <Compile Include="Characters\Monster.cs" />
     <Compile Include="Characters\Player.cs" />
-    <Compile Include="Characters\Race\Dwarf.cs" />
-    <Compile Include="Characters\Race\Elf.cs" />
-    <Compile Include="Characters\Race\Human.cs" />
-    <Compile Include="Feature.cs" />
-    <Compile Include="Gear.cs" />
+    <Compile Include="Characters\Races\Dwarf.cs" />
+    <Compile Include="Characters\Races\Elf.cs" />
+    <Compile Include="Characters\Races\Human.cs" />
+    <Compile Include="Characters\Attributes\Feature.cs" />
+    <Compile Include="Characters\Attributes\Gear.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Characters\Race\Race.cs" />
-    <Compile Include="Skill.cs" />
-    <Compile Include="Trait.cs" />
+    <Compile Include="Characters\Races\IRace.cs" />
+    <Compile Include="Characters\Attributes\Skill.cs" />
+    <Compile Include="Characters\Attributes\Trait.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Class diagram\CharactersDomain.cd" />

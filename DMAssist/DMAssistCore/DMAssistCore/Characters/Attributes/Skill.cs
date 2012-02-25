@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DMAssistCore
+namespace DMAssistCore.Character.Attribute
 {
-	public class Elf : Race
+	public class Skill
 	{
 	}
 }

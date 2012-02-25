@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DMAssistCore
+namespace DMAssistCore.Character.Race
 {
-	public class Gear
+	public class Elf : IRace
 	{
 	}
 }

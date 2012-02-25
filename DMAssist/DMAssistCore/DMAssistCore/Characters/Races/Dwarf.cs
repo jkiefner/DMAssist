@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DMAssistCore.Character
+namespace DMAssistCore.Character.Race
 {
-	public class Monster : ICharacter
+	public class Dwarf : IRace
 	{
 	}
 }

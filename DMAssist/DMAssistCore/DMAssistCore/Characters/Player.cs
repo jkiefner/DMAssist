@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using DMAssistCore.Character.Race;
+using DMAssistCore.Character.Attribute;
 
-namespace DMAssistCore
+namespace DMAssistCore.Character
 {
-	public class Player : Character
+	public class Player : ICharacter
 	{
-		public Race Race
+		public IRace CharacterRace
 		{
 			get
 			{
@@ -37,11 +39,6 @@ namespace DMAssistCore
 			set
 			{
 			}
-		}
-
-		public override void Attack()
-		{
-			throw new NotImplementedException();
 		}
 	}
 }
