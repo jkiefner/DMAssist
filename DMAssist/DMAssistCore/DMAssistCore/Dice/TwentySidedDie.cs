@@ -6,19 +6,37 @@ using System.ComponentModel;
 
 namespace DMAssistCore.Dice
 {
-   public class TwentySidedDie : IDie
+    public class TwentySidedDie : Die
     {
-        #region IDie Members
-
-
-        public int DieRoll
+        public TwentySidedDie()
         {
-            get {
-                Random randomGenerator = new Random();
-                return randomGenerator.Next(1, 20);
+
+        }
+        public TwentySidedDie(Random randomGenerator)
+            : base(randomGenerator)
+        {
+            _randomGenerator = randomGenerator;
+        }
+
+
+        public override Random RandomGenerator
+        {
+            get
+            {
+                return _randomGenerator;
+            }
+            set
+            {
+                _randomGenerator = value;
             }
         }
 
-        #endregion
+        public override int DieRoll
+        {
+            get
+            {
+                return _randomGenerator.Next(1, 21);
+            }
+        }
     }
 }

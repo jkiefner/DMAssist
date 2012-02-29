@@ -51,7 +51,7 @@ namespace DMAssistTests.Dice
         [Test]
         public void TwentySidedDieRollInRangeTest()
         {
-            IDie twentySided = new TwentySidedDie();
+            Die twentySided = new TwentySidedDie();
             int dieRollValue = twentySided.DieRoll;
             Assert.That(dieRollValue,Is.InRange(1,20));
         }

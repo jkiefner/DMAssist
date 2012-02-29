@@ -8,7 +8,7 @@ namespace DMAssistCore.Dice
    public class DiceRepository
     {
 
-        public int GetDiceRollTotal<T>(List<T> diceSet) where T : IDie
+        public int GetDiceRollTotal<T>(List<T> diceSet) where T : Die
         {
             int diceTotal = 0;
             foreach (var die in diceSet)
