@@ -1,5 +1,0 @@
-C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\bin\Release\DMAssistCore.dll
-C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\bin\Release\DMAssistCore.pdb
-C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Release\ResolveAssemblyReference.cache
-C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Release\DMAssistCore.dll
-C:\projects\DMAssist\DMAssist\DMAssistCore\DMAssistCore\obj\Release\DMAssistCore.pdb
