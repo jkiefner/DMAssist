@@ -6,42 +6,35 @@ using System.ComponentModel;
 
 namespace DMAssistCore.Dice
 {
-    public class TwentySidedDie : Die
-    {
+	public class TwentySidedDie : Die
+	{
 
 		public TwentySidedDie()
 			:base()
 		{ }
 
-        public TwentySidedDie(Random randomGenerator)
-            : base(randomGenerator)
-        {
-            _randomGenerator = randomGenerator;
-        }
+		public TwentySidedDie(Random randomGenerator)
+			: base(randomGenerator)
+		{
+			_randomGenerator = randomGenerator;
+		}
 
-
-        public override Random RandomGenerator
-        {
-            get
-            {
-				if (_randomGenerator == null)
+		private int _dieRoll = 0;
+		public override int DieRoll
+		{
+			get
+			{
+				if (_dieRoll == 0)
 				{
-					_randomGenerator = new Random();
+					_dieRoll = _randomGenerator.Next(1, 21);
+					return _dieRoll;
 				}
-                return _randomGenerator;
-            }
-            set
-            {
-                _randomGenerator = value;
-            }
-        }
-
-        public override int DieRoll
-        {
-            get
-            {
-                return _randomGenerator.Next(1, 21);
-            }
-        }
-    }
+				else
+				{
+					return _dieRoll;
+				}
+				
+			}
+		}
+	}
 }

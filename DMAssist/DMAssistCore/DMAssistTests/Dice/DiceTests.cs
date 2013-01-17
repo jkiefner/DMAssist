@@ -52,6 +52,15 @@ namespace DMAssistTests.Dice
         public void TwentySidedDieRollInRangeTest()
         {
             Die twentySided = new TwentySidedDie();
+			twentySided.Add(new TwentySidedDie());
+			twentySided.Add(new TenSidedDie());
+			foreach (var item in twentySided)
+			{
+				Console.WriteLine(item.DieRoll);
+			}
+			var singleDice = twentySided.Where(x => x.GetType() == typeof(TenSidedDie)).FirstOrDefault();
+
+			Assert.That(singleDice.DieRoll > 0);
             int dieRollValue = twentySided.DieRoll;
             Assert.That(dieRollValue,Is.InRange(1,20));
         }
