@@ -9,17 +9,19 @@ namespace DMAssistCore.Character
 {
 	public class Player : ICharacter
 	{
+		private IRace _characterRace;
 		public IRace CharacterRace
 		{
 			get
 			{
-				throw new System.NotImplementedException();
+				return _characterRace;
 			}
 			set
 			{
+				_characterRace = value;
 			}
 		}
-				public Skill Skill
+		public Skill Skill
 		{
 			get
 			{
