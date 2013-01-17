@@ -55,6 +55,7 @@
     <Compile Include="Dice\IDie.cs" />
     <Compile Include="Dice\SixSidedDie.cs" />
     <Compile Include="Dice\TwentySidedDie.cs" />
+    <Compile Include="Enums\DiceType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Characters\Races\IRace.cs" />
     <Compile Include="Characters\Attributes\Skill.cs" />

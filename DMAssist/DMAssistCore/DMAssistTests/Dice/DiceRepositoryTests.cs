@@ -37,22 +37,36 @@ namespace DMAssistTests.Dice
             DiceRepository dRepo = new DiceRepository();
             int length = 1000;
             Random rgen = new Random();
-            for (int i = 0; i < length; i++)
-            {
-                int rollResult =
-                    dRepo.GetDiceRollTotal(
-                    new List<Die> {
-                    new TwentySidedDie(rgen),
-                    new TwentySidedDie(rgen),
-                    new TwentySidedDie(rgen)
+			//for (int i = 0; i < length; i++)
+			//{
+			//    int rollResult =
+			//        dRepo.GetDiceRollTotal(
+			//        new List<Die> {
+			//        new TwentySidedDie(rgen),
+			//        new TwentySidedDie(rgen),
+			//        new TwentySidedDie(rgen)
+			//        });
+
+			//    intList.Add(rollResult);
+			//}
+
+			for (int i = 0; i < length; i++)
+			{
+				int rollResult =
+					dRepo.GetDiceRollTotal(
+					new List<Die> {
+                    new TwentySidedDie(),
+                    new TwentySidedDie(),
+                    new TwentySidedDie()
                     });
 
-                intList.Add(rollResult);
-            }
+				intList.Add(rollResult);
+			}
+
             Dictionary<int, int> scoreDict = new Dictionary<int, int>();
-            for (int i = 3; i < 63; i++)
+            for (int i = 1; i < 61; i++)
             {
-                scoreDict[i+3] = intList.Where(x => x == i).Count();
+                scoreDict[i] = intList.Where(x => x == i).Count();
                 
             }
 
@@ -60,18 +74,31 @@ namespace DMAssistTests.Dice
             StringBuilder row = new StringBuilder();
             foreach (var item in scoreDict)
             {
-                header.Append(item.Key + ",");
-                row.Append(item.Value + ",");
-            }
+                header.Append("\"" + item.Key + "\",");
+            }			
 
             using (StreamWriter sr = new StreamWriter("c:/testouput.csv"))
             {
                 sr.WriteLine(header.ToString()
                     .Substring(0,header.ToString().Length - 1));
-                sr.WriteLine(row.ToString()
-                    .Substring(0,row.ToString().Length -1));
+				foreach (var item in intList)
+				{
+					StringBuilder dataRow = new StringBuilder();
+					for (int i = 0; i < 61; i++)
+					{
+						if (i == item)
+						{
+							dataRow.Append("1,");
+						}
+						else
+						{
+							dataRow.Append("0,");
+						}
+					}
+					sr.WriteLine(dataRow.ToString()
+						.Substring(0, dataRow.ToString().Length - 1));
+				}
             }
-
         }
     }
 }

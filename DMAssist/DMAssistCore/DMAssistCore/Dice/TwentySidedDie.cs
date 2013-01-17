@@ -8,10 +8,11 @@ namespace DMAssistCore.Dice
 {
     public class TwentySidedDie : Die
     {
-        public TwentySidedDie()
-        {
 
-        }
+		public TwentySidedDie()
+			:base()
+		{ }
+
         public TwentySidedDie(Random randomGenerator)
             : base(randomGenerator)
         {
@@ -23,6 +24,10 @@ namespace DMAssistCore.Dice
         {
             get
             {
+				if (_randomGenerator == null)
+				{
+					_randomGenerator = new Random();
+				}
                 return _randomGenerator;
             }
             set
