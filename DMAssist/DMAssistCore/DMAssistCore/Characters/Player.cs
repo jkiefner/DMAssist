@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DMAssistCore.Character.Race;
+using DMAssistCore.Character.Races;
 using DMAssistCore.Character.Attribute;
 
 namespace DMAssistCore.Character
 {
-	public class Player : ICharacter
+	public class Player 
 	{
 		private IRace _characterRace;
 		public IRace CharacterRace
@@ -21,7 +21,7 @@ namespace DMAssistCore.Character
 				_characterRace = value;
 			}
 		}
-		public Skill Skill
+		public List<Skill> Skills
 		{
 			get
 			{
@@ -31,7 +31,6 @@ namespace DMAssistCore.Character
 			{
 			}
 		}
-
 		public List<Gear> Gear
 		{
 			get
@@ -42,5 +41,6 @@ namespace DMAssistCore.Character
 			{
 			}
 		}
+
 	}
 }

@@ -3,6 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Left" Height="39" Margin="10,10,0,0" VerticalAlignment="Top">
+            <Label Content="Welcome to the Dungeon Assist"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="10,108,0,0" VerticalAlignment="Top" Width="100"/>
+
     </Grid>
 </Window>

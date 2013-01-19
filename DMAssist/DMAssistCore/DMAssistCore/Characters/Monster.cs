@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DMAssistCore.Character
 {
-	public class Monster : ICharacter
+	public class Monster 
 	{
 	}
 }

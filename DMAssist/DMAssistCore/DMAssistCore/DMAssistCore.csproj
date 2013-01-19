@@ -51,6 +51,7 @@
     <Compile Include="Characters\Races\Human.cs" />
     <Compile Include="Characters\Attributes\Feature.cs" />
     <Compile Include="Characters\Attributes\Gear.cs" />
+    <Compile Include="Characters\Races\Race.cs" />
     <Compile Include="Dice\DiceRepository.cs" />
     <Compile Include="Dice\Die.cs" />
     <Compile Include="Dice\IDie.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Dice\TenSidedDie.cs" />
     <Compile Include="Dice\TwentySidedDie.cs" />
     <Compile Include="Enums\DiceType.cs" />
+    <Compile Include="Enums\RaceTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Characters\Races\IRace.cs" />
     <Compile Include="Characters\Attributes\Skill.cs" />
