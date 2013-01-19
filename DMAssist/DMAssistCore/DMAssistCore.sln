@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssistCore", "DMAssistCore\DMAssistCore.csproj", "{BB007461-CB26-43A4-B243-38E9CE62E212}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssist.Core", "DMAssistCore\DMAssist.Core.csproj", "{BB007461-CB26-43A4-B243-38E9CE62E212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssistTests", "DMAssistTests\DMAssistTests.csproj", "{D7918ABB-674D-4ECF-8F35-4912AE41A4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssist.Tests", "DMAssistTests\DMAssist.Tests.csproj", "{D7918ABB-674D-4ECF-8F35-4912AE41A4A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{62361F8E-A5E7-4544-8B89-BD75DD28C074}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{62361F
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssistUI", "DMAssistUI\DMAssistUI.csproj", "{C959C3C6-FF17-49D5-804F-6BAE386AA97C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMAssist.UI", "DMAssistUI\DMAssist.UI.csproj", "{C959C3C6-FF17-49D5-804F-6BAE386AA97C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

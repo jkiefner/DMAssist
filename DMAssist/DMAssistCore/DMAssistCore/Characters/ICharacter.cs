@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using DMAssistCore.Character.Attribute;
-using DMAssistCore.Character.Races;
-using DMAssistCore.Characters.Races;
-namespace DMAssistCore.Character
+using DMAssist.Core.Character.Attribute;
+using DMAssist.Core.Character.Races;
+using DMAssist.Core.Characters.Races;
+namespace DMAssist.Core.Character
 {
 	public abstract class Character : Race
 	{

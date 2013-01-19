@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DMAssistUI
+namespace DMAssist.UI
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml

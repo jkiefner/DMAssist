@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DMAssistCore.Character.Races;
+using DMAssist.Core.Character.Races;
 using NUnit;
 using NUnit.Framework;
-using DMAssistCore.Enums;
+using DMAssist.Core.Enums;
 
-namespace DMAssistTests.characterTests
+namespace DMAssist.Tests.characterTests
 {
 	[TestFixture]
 	public class CharacterTests

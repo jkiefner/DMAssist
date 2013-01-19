@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 
-namespace DMAssistCore.Dice
+namespace DMAssist.Core.Dice
 {
 	public class TwentySidedDie : Die
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DMAssistCore.Dice
+namespace DMAssist.Core.Dice
 {
    public class DiceRepository
     {

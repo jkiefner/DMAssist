@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DMAssistCore.Character.Races;
-using DMAssistCore.Character.Attribute;
+using DMAssist.Core.Character.Races;
+using DMAssist.Core.Character.Attribute;
 
-namespace DMAssistCore.Character
+namespace DMAssist.Core.Character
 {
 	public class Player 
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DMAssistCore.Characters.Attributes
+namespace DMAssist.Core.Characters.Attributes
 {
 	public class Attributes
 	{

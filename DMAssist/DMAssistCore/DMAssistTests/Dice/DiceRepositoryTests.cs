@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
-using DMAssistCore.Dice;
+using DMAssist.Core.Dice;
 using System.IO;
 using System.Threading;
 
-namespace DMAssistTests.Dice
+namespace DMAssist.Tests.Dice
 {
     [TestFixture]
     public class DiceRepositoryTests

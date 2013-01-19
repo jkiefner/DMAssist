@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DMAssistCore.Enums;
+using DMAssist.Core.Enums;
 
-namespace DMAssistCore.Characters.Races
+namespace DMAssist.Core.Characters.Races
 {
 	public abstract class Race
 	{
@@ -20,7 +20,7 @@ namespace DMAssistCore.Characters.Races
 		{
 			get
 			{
-				if (RaceType == DMAssistCore.Enums.RaceTypes.Dwarf)
+				if (RaceType == DMAssist.Core.Enums.RaceTypes.Dwarf)
 				{
 					return _constitution + 2;
 				}
@@ -37,7 +37,7 @@ namespace DMAssistCore.Characters.Races
 		{
 			get
 			{
-				if (RaceType == DMAssistCore.Enums.RaceTypes.Dwarf)
+				if (RaceType == DMAssist.Core.Enums.RaceTypes.Dwarf)
 				{
 					return _charisma - 2;
 				}

@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace DMAssistCore.Dice
+namespace DMAssist.Core.Dice
 {
 	public class SixSidedDie : IDie
 	{
